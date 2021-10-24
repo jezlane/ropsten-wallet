@@ -28,7 +28,7 @@ function App() {
  
   return (
     <div className="App">
-      <h2>The Ropsten Wallet</h2>
+      <h2>The Ropsten Wallet.</h2>
       <div>
         {(infuraClientId==null) &&
           <InfuraSetup />

@@ -33,9 +33,9 @@ function App() {
         {(infuraClientId==null) &&
           <InfuraSetup />
         }
-        {/* {(infuraClientId!=null) &&         */}
+        {(infuraClientId!=null) &&        
           <WalletSummary address={account.address} />
-        {/* } */}
+        }
         <hr/>
 
         {(actionType==null) && 

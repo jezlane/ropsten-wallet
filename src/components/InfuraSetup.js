@@ -8,6 +8,7 @@ export default function InfuraSetup() {
 
     const SetClientId = () => {
         setInfuraClientId(inputClientId.current.value);
+        window.location.reload(false);
     }
 
     return (

@@ -38,6 +38,12 @@ export default function SendEther({address,  setActionType}) {
         // console.log("To Address:",inputToAddress.current.value);
         // console.log("Ether Amount:",inputEtherAmount.current.value);
         // console.log(transactionResult);
+
+        if (inputEtherAmount.current.value >= balanceEther) {
+            setTransactionResult("Insufficient Funds for transaction");
+            return;
+        }
+
         web3.eth.accounts.signTransaction(
             {
                 to: inputToAddress.current.value,

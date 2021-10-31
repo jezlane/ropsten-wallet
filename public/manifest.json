@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Robsten Wallet",
+  "name": "The Ropsten Wallet",
+  "description": "A Basic Wallet that works on the Robsten testnet",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
+  "prefer_related_applications": false,
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
